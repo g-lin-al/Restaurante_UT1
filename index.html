@@ -1,42 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Restaurante</title>
-        <meta name="author" content="Guillermo Líndez Alonso" />
-        <meta name="generator" content="VSCode" />
-        <meta name="description" content="Ejercicio UT1 DWEC" />
-    </head>
-    <body>
-        <div class="cabecera">
-            <h1>La Vega</h1>
-            <p>Restaurante vegano</p>
-        </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Vega - Restaurante</title>
+    <link rel="icon" type="image/png" href="IMG/favicon.png" />
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+    <meta name="author" content="Guillermo Líndez Alonso" />
+    <meta name="generator" content="VSCode" />
+    <meta name="description" content="Ejercicio UT1 DWEC" />
+</head>
+<body>
+    <header>
+        <h1>La Vega</h1>
+        <img src="IMG/favicon.png" alt="logo" class="logo" />
+        <p>restaurante vegano</p>
+    </header>
 
-        <div class="nav">
-            <a href="#menu">Menú</a>
-            <a href="#ubicacion">Ubicación</a>
-            <a href="#contacto">Contacto</a>
-        </div>
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#ubicacion">Entrantes</a>
+        <a href="#contacto">Bebidas</a>
+    </nav>
 
-        <div class="menu" id="menu">
-            
-        </div>
-
-        <div class="ubicacion" id="ubicacion">
-            <!-- Completar -->
-            <p>ESCRIBIR</p>
-            <img src="" alt="" />
-        </div>
-
-        <div class="pie" id="contacto">
+    <main>
+        <section id="menu">
+            <table>
+                <tr>
+                    <td>
+                        <img src="https://picsum.photos/id/1020/600/400" alt="platos" class="menu" />
+                    </td>
+                    <td>
+                        <img src="https://picsum.photos/id/1020/600/400" alt="entrantes" class="menu" />
+                    </td>
+                    <td>
+                        <img src="https://picsum.photos/id/1020/600/400" alt="bebidas" class="menu" />
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="ubicacion">
+            <div>
+                <p>calle -----------</p>
+                <img src="https://picsum.photos/id/1029/600/400" alt="">
+            </div>
+        </section>
+        <section id="contacto">
             <h2>-- Contacto --</h2>
             <form action="https://www.w3schools.com/action_page.php" method="post">
                 Nombre <input type="text" name="nombre" />
                 e-mail <input type="text" name="email" />
                 <input type="submit" value="Enviar" />
             </form>
-        </div>
-    </body>
+        </section>
+
+        <footer>
+            <h2>Sobre nosotros</h2>
+            <table>
+                <tr>
+                    <td>
+                        <p>La Vega nació en 2026 como pequeño proyecto para acercar la comida vegana al público de Azuqueca de Henares. Platos llenos de color con opciones atractivas para cualquier público. Además de martes a viernes ofrece menú del día, y dispone de menú infantil.</p>
+                    </td>
+                    <td>
+                        <img src="IMG/favicon.png" alt="logo" class="logo" />
+                    </td>
+                </tr>
+            </table>            
+        </footer>
+    </main>
+</body>
 </html>

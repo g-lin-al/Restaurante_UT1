@@ -1,0 +1,35 @@
+main{
+    padding: 10%;
+    background-color: #64EEDA;
+}
+
+h1{
+    display: inline;
+}
+
+header>img{
+    width: 15%;
+    height: 15%;
+}
+
+footer>img{
+    width: 10%;
+    height: 10%;
+    align-items: right;
+}
+
+footer>p{
+    display: inline;
+    width: 40%;
+    text-align: left;
+}
+
+.menu{
+    width: 90%;
+    height: 90%;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
