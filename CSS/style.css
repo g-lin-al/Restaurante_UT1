@@ -1,3 +1,7 @@
+body{
+    background-color: #EDD064;
+}
+
 main{
     padding: 10%;
     background-color: #64EEDA;
@@ -27,6 +31,7 @@ footer>p{
 .menu{
     width: 90%;
     height: 90%;
+    border: 2px, solid, #ED64ED;
 }
 
 .logo{
