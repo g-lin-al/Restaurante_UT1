@@ -5,7 +5,12 @@
 table{
     width: 100%;
     /* border: 1px dashed; */
+    padding: 2%;
 }
+
+/* td, tr{
+    border: 1px dashed;
+} */
 
 td{
     text-align: center;
@@ -21,6 +26,10 @@ h1, h2, h3{
     /* font-size: ; */
 }
 
+h2{
+    padding-left: 10%;
+}
+
 p{
     font-family: "Corbel";
 }
@@ -30,8 +39,8 @@ body{
 }
 
 main{
-    margin: 5% 7%;
-    padding: 5% 15%;
+    margin: 1% 7%;
+    padding: 1% 15%;
     background-color: #EDE8D0;
 }
 
@@ -41,7 +50,7 @@ header{
     background-color: #EDE8D0;
 }
 
-header>img{
+header>img, #logo{
     width: 15%;
     height: 15%;
 }
@@ -53,9 +62,9 @@ footer>p{
 }
 
 .menu{
-    width: 80%;
+    width: 90%;
     height: 90%;
-    border: 2px, solid, #ED64ED;
+    border: 2px, solid, #E0AD5E;
 }
 
 .logo{
@@ -78,4 +87,14 @@ hr{
 
 a{
     color: ;
+}
+
+h2{
+    background-color: #D9D5BE;
+}
+
+nav{
+    margin: 1% 7%;
+    padding: 1% 15%;
+    background-color: #909976;
 }

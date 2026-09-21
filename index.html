@@ -39,16 +39,16 @@
             <table>
                 <tr>
                     <td>
+                        <a href="https://es.wikipedia.org/wiki/Veganismo"><img src="IMG/platos.png" alt="platos" class="menu" /></a>
                         <h3>Platos</h3>
-                        <img src="IMG/platos.png" alt="platos" class="menu" />
                     </td>
                     <td>
+                        <a href="https://es.wikipedia.org/wiki/Categor%C3%ADa:Entrantes"><img src="IMG/entrantes.png" alt="entrantes" class="menu" /></a>
                         <h3>Entrantes</h3>
-                        <img src="IMG/entrantes.png" alt="entrantes" class="menu" />
                     </td>
                     <td>
+                        <a href="https://es.wikipedia.org/wiki/Categor%C3%ADa:Refrescos"><img src="IMG/bebidas.png" alt="bebidas" class="menu" /></a>
                         <h3>Bebidas</h3>
-                        <img src="IMG/bebidas.png" alt="bebidas" class="menu" />
                     </td>
                 </tr>
             </table>
@@ -72,8 +72,15 @@
         <section id="contacto">
             <h2>Contacta con nosotros</h2>
             <form action="https://www.w3schools.com/action_page.php" method="post">
-                Nombre <input type="text" name="nombre" />
-                e-mail <input type="text" name="email" />
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre"  />
+                <label for="email" id="email">e-mail</label>
+                <input type="text" name="email" />
+                <br />
+                <br />
+                <textarea name="texto" id="texto" rows="8" cols="50" placeholder="Escriba su mensaje"></textarea>
+                <br />
+                <input type="reset" value="Borrar todo" />
                 <input type="submit" value="Enviar" />
             </form>
         </section>
@@ -86,7 +93,8 @@
             <table>
                 <tr>
                     <td><p>Avenida de Madrid, nº 1<br /> Azuqueca de Henares, Guadalajara<br /> 19200</p></td>
-                    <td><img src="https://picsum.photos/id/1029/600/400" alt="mapa físico" id="mapa"></td>
+                    <td><img src="IMG/mapa.png" alt="mapa físico" id="mapa"></td>
+                    <td><img src="IMG/favicon.png" alt="logo_vega" id="logo" /></td>
                 </tr>
             </table>
         </div>
