@@ -12,41 +12,65 @@
 </head>
 <body>
     <header>
-        <h1>La Vega</h1>
-        <img src="IMG/favicon.png" alt="logo" class="logo" />
-        <p>restaurante vegano</p>
+        <table>
+            <tr>
+                <td><h1>La Vega</h1></td>
+                <td><img src="IMG/favicon.png" alt="logo" class="logo" /></td>
+                <td><p>restaurante vegano</p></td>
+            </tr>
+        </table>
     </header>
 
+    <hr />
+
     <nav>
-        <a href="#menu">Menú</a>
-        <a href="#ubicacion">Entrantes</a>
-        <a href="#contacto">Bebidas</a>
+        <table>
+            <tr>
+                <td><a href="#menu">Menú</a></td>
+                <td><a href="#about">Sobre nosotros</a></td>
+                <td><a href="#contacto">Contacto</a></td>
+            </tr>
+        </table>
     </nav>
 
     <main>
         <section id="menu">
+            <h2>Nuestro menú</h2>
             <table>
                 <tr>
                     <td>
+                        <h3>Platos</h3>
                         <img src="IMG/platos.png" alt="platos" class="menu" />
                     </td>
                     <td>
+                        <h3>Entrantes</h3>
                         <img src="IMG/entrantes.png" alt="entrantes" class="menu" />
                     </td>
                     <td>
+                        <h3>Bebidas</h3>
                         <img src="IMG/bebidas.png" alt="bebidas" class="menu" />
                     </td>
                 </tr>
             </table>
         </section>
-        <section id="ubicacion">
-            <div>
-                <p>calle -----------</p>
-                <img src="https://picsum.photos/id/1029/600/400" alt="">
-            </div>
+        <br /><br /><br />
+        <section id="about">
+            <h2>Sobre nosotros</h2>
+            <table>
+                <tr>
+                    <td>
+                        <p>La Vega nació en 2026 como pequeño proyecto para acercar la comida vegana al público de Azuqueca de Henares. Platos llenos de color con opciones atractivas para cualquier público. Además, de martes a viernes ofrece menú del día, y dispone de menú infantil.
+                        </p>
+                    </td>
+                    <td>
+                        <img src="IMG/about_img.jpg" alt="restaurante" id="about_img" />
+                    </td>
+                </tr>
+            </table>
         </section>
+        <br /><br /><br />
         <section id="contacto">
-            <h2>-- Contacto --</h2>
+            <h2>Contacta con nosotros</h2>
             <form action="https://www.w3schools.com/action_page.php" method="post">
                 Nombre <input type="text" name="nombre" />
                 e-mail <input type="text" name="email" />
@@ -54,18 +78,18 @@
             </form>
         </section>
     </main>
+
+    <hr />
+
     <footer>
-            <h2>Sobre nosotros</h2>
+        <div>
             <table>
                 <tr>
-                    <td>
-                        <p>La Vega nació en 2026 como pequeño proyecto para acercar la comida vegana al público de Azuqueca de Henares. Platos llenos de color con opciones atractivas para cualquier público. Además de martes a viernes ofrece menú del día, y dispone de menú infantil.</p>
-                    </td>
-                    <td>
-                        <img src="IMG/favicon.png" alt="logo" class="logo" />
-                    </td>
+                    <td><p>Avenida de Madrid, nº 1<br /> Azuqueca de Henares, Guadalajara<br /> 19200</p></td>
+                    <td><img src="https://picsum.photos/id/1029/600/400" alt="mapa físico" id="mapa"></td>
                 </tr>
-            </table>            
-        </footer>
+            </table>
+        </div>
+    </footer>
 </body>
 </html>
