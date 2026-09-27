@@ -77,6 +77,18 @@ a:link {
     color: #E0Ad5E;
 }
 
+a:visited {
+    font-family: "Constantia";
+    font-size: 1.5em;
+    color: #7e5c28;
+}
+
+a:hover {
+    font-family: "Constantia";
+    font-size: 1.5em;
+    color: #e9aa4c;
+}
+
 h2{
     background-color: #D9D5BE;
 }
