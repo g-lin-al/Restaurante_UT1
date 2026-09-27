@@ -1,29 +1,15 @@
-/* pruebas */
-
-
-
 table{
     width: 100%;
-    /* border: 1px dashed; */
     padding: 2%;
 }
-
-/* td, tr{
-    border: 1px dashed;
-} */
 
 td{
     text-align: center;
     width: 33%;
 }
 
-
-
-/* pruebas */
-
 h1, h2, h3{
     font-family: "Constantia";
-    /* font-size: ; */
 }
 
 h2{
@@ -85,8 +71,10 @@ hr{
     width: 90%;
 }
 
-a{
-    color: ;
+a:link {
+    font-family: "Constantia";
+    font-size: 1.5em;
+    color: #E0Ad5E;
 }
 
 h2{
